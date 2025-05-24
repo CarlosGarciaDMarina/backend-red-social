@@ -1,0 +1,25 @@
+// Importamos el modelo 
+const Follow = require("../models/follow");
+const User = require("../models/user");
+//const bcrypt = require("bcrypt");
+
+
+// Importamos el servicio
+const FollowService = require("../services/followUserIds");
+
+// Controlador de prueba
+const pruebaUser = async(req, res) => {
+    try{
+        return res.status(200).send({
+            message: "Hola mundo desde controllers/user.js"
+        });
+    }catch(error){
+        return res.status(500).send({
+            message: "direccion no encontrada"
+        });
+    }
+}
+
+module.exports = {
+    pruebaUser
+}
