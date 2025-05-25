@@ -10,9 +10,9 @@
   "author": "Carlos Garcia de Marina",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^2.2.0",
-    "connect-multiparty": "^2.2.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "jwt-simple": "^0.5.6",
